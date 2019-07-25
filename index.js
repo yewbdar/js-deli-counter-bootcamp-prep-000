@@ -20,7 +20,7 @@ function nowServing(katzDeli){
 
 function currentLine(katzDeli){
   if(katzDeli.length > 0){
-    return `The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}`
+    return `The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}, 3.${katzDeli[2]}`
   }else{
     return 'The line is currently empty.'
   }
