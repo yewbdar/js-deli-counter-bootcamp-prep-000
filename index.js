@@ -11,9 +11,9 @@ function takeANumber(katzDeli,personName){
 function nowServing(katzDeli){
   if(katzDeli.length > 0){
     return 'Currently serving' +' '+ katzDeli[0]+'.'
-    
+     katzDeli.shift();
   }else{
     return "There is nobody waiting to be served!"
   }
-  return katzDeli.shift();
+  
 }
